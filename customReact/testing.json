@@ -1,0 +1,1910 @@
+[
+    {
+        "id": "99647b52-0390-4695-a87c-8885ecb83499",
+        "name": "saveAndUpdateSqlQueryConfig",
+        "is_archive": false,
+        "return_type_schema_def_id": "6585f768-92cb-43c1-bc9c-3eec2232b53c",
+        "package_name": "system.qb.config",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": "To save and update sql query config and generate wrapper method.",
+        "is_using_current_db": false,
+        "database_name": "bm_config",
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.qb.config.saveAndUpdateSqlQueryConfig",
+        "parameters": [
+            {
+                "id": "b19b5c1d-96b6-478f-9a35-95abda6b142f",
+                "variable_name": "sqlQueryConfig",
+                "type": "PARAM",
+                "schema_def_id": "6585f768-92cb-43c1-bc9c-3eec2232b53c",
+                "method_or_statement_id": "99647b52-0390-4695-a87c-8885ecb83499"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "69ff334e-5016-4c50-a57a-910c6c70d637",
+        "name": "isBlank",
+        "is_archive": false,
+        "return_type_schema_def_id": "8c758d7f-20a7-48db-b4ad-3450e11c5d8b",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.isBlank",
+        "parameters": [
+            {
+                "id": "3a78483f-b2f2-4ba6-b2b5-620c935ebbee",
+                "variable_name": "string",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "69ff334e-5016-4c50-a57a-910c6c70d637"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+        "name": "sumOfArrayElementsVersion2",
+        "is_archive": false,
+        "return_type_schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+        "package_name": "bm",
+        "type": "CONFIGURED_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": "b8c9b803-f7de-4d87-aa0c-20124f7c24fa",
+        "description": "sum of arrays",
+        "is_using_current_db": null,
+        "database_name": null,
+        "category": null,
+        "fullyQualifiedName": "bm.sumOfArrayElementsVersion2",
+        "parameters": [
+            {
+                "id": "904563d2-2042-450d-b626-d02ca7f88eb1",
+                "variable_name": "array",
+                "type": "PARAM",
+                "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                "method_or_statement_id": "d564026f-e605-41d2-bdf2-2748af90d9f5"
+            }
+        ],
+        "blockStatementConfig": {
+            "id": "b8c9b803-f7de-4d87-aa0c-20124f7c24fa",
+            "type": "BLOCK_STATEMENT",
+            "sequence": 0,
+            "block_statement_id": null,
+            "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+            "variables": [
+                {
+                    "id": "3f09eb5a-c427-45e4-81a2-118884f29c0d",
+                    "variable_name": "result",
+                    "type": "VARIABLE",
+                    "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                    "method_or_statement_id": "b8c9b803-f7de-4d87-aa0c-20124f7c24fa"
+                }
+            ],
+            "statements": [
+                {
+                    "id": "99670a3d-f98b-4f4b-983c-01965c5dc0bd",
+                    "type": "EXPRESSION_STATEMENT",
+                    "sequence": 0,
+                    "block_statement_id": "b8c9b803-f7de-4d87-aa0c-20124f7c24fa",
+                    "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+                    "methodStatementDetailList": [
+                        {
+                            "id": "68b4c0b1-7772-4ef6-be17-b57186baa699",
+                            "method_statement_id": "99670a3d-f98b-4f4b-983c-01965c5dc0bd",
+                            "type": "EXPRESSION",
+                            "method_statement_detail_property_name": "EXPRESSION",
+                            "method_statement_detail_property_value": "b2bdf6b2-a257-489c-a328-e0c666d41c3c",
+                            "expressionConfig": {
+                                "id": "b2bdf6b2-a257-489c-a328-e0c666d41c3c",
+                                "type": "ASSIGNMENT_EXPRESSION",
+                                "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+                                "expressionDetailList": [
+                                    {
+                                        "id": "98f229b2-1e88-4653-8f16-4b69d5ee3c5e",
+                                        "expression_id": "b2bdf6b2-a257-489c-a328-e0c666d41c3c",
+                                        "name": "OPERATOR",
+                                        "value": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                        "type": "OPERATOR",
+                                        "operator": {
+                                            "id": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                            "is_archive": false,
+                                            "name": "ASSIGNMENT",
+                                            "type": "ASSIGNMENT"
+                                        }
+                                    },
+                                    {
+                                        "id": "7b6f49ed-2b34-41f0-8a6f-552d5d86ba3d",
+                                        "expression_id": "b2bdf6b2-a257-489c-a328-e0c666d41c3c",
+                                        "name": "LEFT",
+                                        "value": "cd6ce97d-177c-42e4-b7ce-46560fe23da9",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "cd6ce97d-177c-42e4-b7ce-46560fe23da9",
+                                            "path_to_object": "result",
+                                            "literal": null,
+                                            "type": "PATH",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5"
+                                        }
+                                    },
+                                    {
+                                        "id": "9a5e6dbf-72bc-49b8-a7df-5b837c44fdf7",
+                                        "expression_id": "b2bdf6b2-a257-489c-a328-e0c666d41c3c",
+                                        "name": "RIGHT",
+                                        "value": "38e45e92-8bec-4a32-9460-0e5566751765",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "38e45e92-8bec-4a32-9460-0e5566751765",
+                                            "path_to_object": null,
+                                            "literal": "0",
+                                            "type": "lITERAL",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "b7f5bb30-999b-4d5c-a607-73d11b7a3ba6",
+                    "type": "FOREACH_STATEMENT",
+                    "sequence": 1,
+                    "block_statement_id": "b8c9b803-f7de-4d87-aa0c-20124f7c24fa",
+                    "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+                    "methodStatementDetailList": [
+                        {
+                            "id": "37628454-9219-4505-b6ff-9411edc02843",
+                            "method_statement_id": "b7f5bb30-999b-4d5c-a607-73d11b7a3ba6",
+                            "type": "EXPRESSION",
+                            "method_statement_detail_property_name": "ALIAS",
+                            "method_statement_detail_property_value": "54be2ab1-9f8d-4f2c-9ef2-8810b1235dee",
+                            "expressionConfig": {
+                                "id": "54be2ab1-9f8d-4f2c-9ef2-8810b1235dee",
+                                "type": "ALIAS_EXPRESSION",
+                                "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+                                "expressionDetailList": [
+                                    {
+                                        "id": "d5474606-a387-4726-9485-ec4185f0cc18",
+                                        "expression_id": "54be2ab1-9f8d-4f2c-9ef2-8810b1235dee",
+                                        "name": "OPERAND",
+                                        "value": "c5b5b19b-91ad-4f37-9fc1-f025d4b4e246",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "c5b5b19b-91ad-4f37-9fc1-f025d4b4e246",
+                                            "path_to_object": "array",
+                                            "literal": null,
+                                            "type": "PATH",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "3ec6f23c-cf26-4984-b4cd-9eb721c87638",
+                            "method_statement_id": "b7f5bb30-999b-4d5c-a607-73d11b7a3ba6",
+                            "type": "STATEMENT",
+                            "method_statement_detail_property_name": "BLOCK",
+                            "method_statement_detail_property_value": "b1b854a0-4469-44b5-b572-66de98bd6684",
+                            "methodStatement": {
+                                "id": "b1b854a0-4469-44b5-b572-66de98bd6684",
+                                "type": "BLOCK_STATEMENT",
+                                "sequence": 0,
+                                "block_statement_id": null,
+                                "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+                                "variables": null,
+                                "statements": [
+                                    {
+                                        "id": "ecc1cb65-8fc6-40a4-a472-2e4aac3e5f40",
+                                        "type": "EXPRESSION_STATEMENT",
+                                        "sequence": 0,
+                                        "block_statement_id": "b1b854a0-4469-44b5-b572-66de98bd6684",
+                                        "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+                                        "methodStatementDetailList": [
+                                            {
+                                                "id": "3e0f5f22-fc3d-4a2a-a5ff-70764e28f3e6",
+                                                "method_statement_id": "ecc1cb65-8fc6-40a4-a472-2e4aac3e5f40",
+                                                "type": "EXPRESSION",
+                                                "method_statement_detail_property_name": "EXPRESSION",
+                                                "method_statement_detail_property_value": "3d36abab-e2eb-4040-a658-621d4a963041",
+                                                "expressionConfig": {
+                                                    "id": "3d36abab-e2eb-4040-a658-621d4a963041",
+                                                    "type": "ASSIGNMENT_EXPRESSION",
+                                                    "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+                                                    "expressionDetailList": [
+                                                        {
+                                                            "id": "b1038dd3-8527-4f98-8b7a-ebdf32b061b1",
+                                                            "expression_id": "3d36abab-e2eb-4040-a658-621d4a963041",
+                                                            "name": "OPERATOR",
+                                                            "value": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                                            "type": "OPERATOR",
+                                                            "operator": {
+                                                                "id": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                                                "is_archive": false,
+                                                                "name": "ASSIGNMENT",
+                                                                "type": "ASSIGNMENT"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "f80866e7-7d20-4bd3-88f9-ca452ab22f84",
+                                                            "expression_id": "3d36abab-e2eb-4040-a658-621d4a963041",
+                                                            "name": "LEFT",
+                                                            "value": "0286e4be-4221-4372-a65a-fa559c2a2225",
+                                                            "type": "OPERAND",
+                                                            "operand": {
+                                                                "id": "0286e4be-4221-4372-a65a-fa559c2a2225",
+                                                                "path_to_object": "result",
+                                                                "literal": null,
+                                                                "type": "PATH",
+                                                                "schema_def_id": null,
+                                                                "property_id": null,
+                                                                "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "5997e165-9d66-470f-ae90-5613a315da61",
+                                                            "expression_id": "3d36abab-e2eb-4040-a658-621d4a963041",
+                                                            "name": "RIGHT",
+                                                            "value": "80e286aa-37c1-4371-a705-6c344c04a5fe",
+                                                            "type": "EXPRESSION",
+                                                            "expressionConfig": {
+                                                                "id": "80e286aa-37c1-4371-a705-6c344c04a5fe",
+                                                                "type": "BINARY_EXPRESSION",
+                                                                "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+                                                                "expressionDetailList": [
+                                                                    {
+                                                                        "id": "3e405dab-ee72-4939-9288-8d7a20339af8",
+                                                                        "expression_id": "80e286aa-37c1-4371-a705-6c344c04a5fe",
+                                                                        "name": "OPERATOR",
+                                                                        "value": "6d218cfa-3b0d-4997-bcb1-bbebf4b7c4ec",
+                                                                        "type": "OPERATOR",
+                                                                        "operator": {
+                                                                            "id": "6d218cfa-3b0d-4997-bcb1-bbebf4b7c4ec",
+                                                                            "is_archive": false,
+                                                                            "name": "ADDITION",
+                                                                            "type": "ARITHMETIC"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "id": "0afe852e-a106-4962-bbbd-ae80133027fe",
+                                                                        "expression_id": "80e286aa-37c1-4371-a705-6c344c04a5fe",
+                                                                        "name": "LEFT",
+                                                                        "value": "2e0c022e-c89b-41a5-ae48-3701f8e8dd85",
+                                                                        "type": "OPERAND",
+                                                                        "operand": {
+                                                                            "id": "2e0c022e-c89b-41a5-ae48-3701f8e8dd85",
+                                                                            "path_to_object": "result",
+                                                                            "literal": null,
+                                                                            "type": "PATH",
+                                                                            "schema_def_id": null,
+                                                                            "property_id": null,
+                                                                            "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "id": "0e015bc0-0969-43ff-86e4-b3b1e734d623",
+                                                                        "expression_id": "80e286aa-37c1-4371-a705-6c344c04a5fe",
+                                                                        "name": "RIGHT",
+                                                                        "value": "cc49d7f3-e9c0-4c86-afbd-66b4b9560c7b",
+                                                                        "type": "OPERAND",
+                                                                        "operand": {
+                                                                            "id": "cc49d7f3-e9c0-4c86-afbd-66b4b9560c7b",
+                                                                            "path_to_object": "number",
+                                                                            "literal": null,
+                                                                            "type": "PATH",
+                                                                            "schema_def_id": null,
+                                                                            "property_id": null,
+                                                                            "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "variables": [
+                        {
+                            "id": "b2cbd347-89f6-4d1e-8ca4-b5d23c394693",
+                            "variable_name": "number",
+                            "type": "VARIABLE",
+                            "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                            "method_or_statement_id": "b7f5bb30-999b-4d5c-a607-73d11b7a3ba6"
+                        }
+                    ]
+                },
+                {
+                    "id": "224440ee-2a23-4525-80e9-6d927a129889",
+                    "type": "RETURN_STATEMENT",
+                    "sequence": 2,
+                    "block_statement_id": "b8c9b803-f7de-4d87-aa0c-20124f7c24fa",
+                    "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+                    "methodStatementDetailList": [
+                        {
+                            "id": "9991a878-d55b-4dda-8f9e-b82c11984bd3",
+                            "method_statement_id": "224440ee-2a23-4525-80e9-6d927a129889",
+                            "type": "EXPRESSION",
+                            "method_statement_detail_property_name": "ARGUMENT",
+                            "method_statement_detail_property_value": "ed4e4fe4-88e3-490e-a2ab-4475b930dc61",
+                            "expressionConfig": {
+                                "id": "ed4e4fe4-88e3-490e-a2ab-4475b930dc61",
+                                "type": "OPERAND_EXPRESSION",
+                                "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5",
+                                "expressionDetailList": [
+                                    {
+                                        "id": "19cc9d39-eb6e-46de-86d4-494ad667bf81",
+                                        "expression_id": "ed4e4fe4-88e3-490e-a2ab-4475b930dc61",
+                                        "name": "ARGUMENT",
+                                        "value": "a1f61fb2-e3a5-4d18-bbad-4cdc2f8a9784",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "a1f61fb2-e3a5-4d18-bbad-4cdc2f8a9784",
+                                            "path_to_object": "result",
+                                            "literal": null,
+                                            "type": "PATH",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "d564026f-e605-41d2-bdf2-2748af90d9f5"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+        "name": "sumOfArrayElementsVersion3",
+        "is_archive": false,
+        "return_type_schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+        "package_name": "bm",
+        "type": "CONFIGURED_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": "b15ba93c-a14b-483f-83e3-d52f0f28dcee",
+        "description": "sum of arrays",
+        "is_using_current_db": null,
+        "database_name": null,
+        "category": null,
+        "fullyQualifiedName": "bm.sumOfArrayElementsVersion3",
+        "parameters": [
+            {
+                "id": "a255baa6-329a-452c-ac05-396e206f4eb6",
+                "variable_name": "array",
+                "type": "PARAM",
+                "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                "method_or_statement_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6"
+            }
+        ],
+        "blockStatementConfig": {
+            "id": "b15ba93c-a14b-483f-83e3-d52f0f28dcee",
+            "type": "BLOCK_STATEMENT",
+            "sequence": 0,
+            "block_statement_id": null,
+            "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+            "variables": [
+                {
+                    "id": "a61b1bf3-96ce-4ee7-bf79-227d27bf2d7e",
+                    "variable_name": "result",
+                    "type": "VARIABLE",
+                    "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                    "method_or_statement_id": "b15ba93c-a14b-483f-83e3-d52f0f28dcee"
+                }
+            ],
+            "statements": [
+                {
+                    "id": "57c607a0-18a3-4a23-9bac-99a2d83d8f1d",
+                    "type": "EXPRESSION_STATEMENT",
+                    "sequence": 0,
+                    "block_statement_id": "b15ba93c-a14b-483f-83e3-d52f0f28dcee",
+                    "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+                    "methodStatementDetailList": [
+                        {
+                            "id": "f0a03349-f320-4e3d-8211-e0baf8e223ab",
+                            "method_statement_id": "57c607a0-18a3-4a23-9bac-99a2d83d8f1d",
+                            "type": "EXPRESSION",
+                            "method_statement_detail_property_name": "EXPRESSION",
+                            "method_statement_detail_property_value": "08ed445a-a766-43db-9b15-b2199c8e4236",
+                            "expressionConfig": {
+                                "id": "08ed445a-a766-43db-9b15-b2199c8e4236",
+                                "type": "ASSIGNMENT_EXPRESSION",
+                                "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+                                "expressionDetailList": [
+                                    {
+                                        "id": "3b88d283-40b6-43af-ae3c-4d7d8e044dc7",
+                                        "expression_id": "08ed445a-a766-43db-9b15-b2199c8e4236",
+                                        "name": "OPERATOR",
+                                        "value": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                        "type": "OPERATOR",
+                                        "operator": {
+                                            "id": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                            "is_archive": false,
+                                            "name": "ASSIGNMENT",
+                                            "type": "ASSIGNMENT"
+                                        }
+                                    },
+                                    {
+                                        "id": "f5443d5a-c6da-401d-ae09-bc54ecd9724d",
+                                        "expression_id": "08ed445a-a766-43db-9b15-b2199c8e4236",
+                                        "name": "LEFT",
+                                        "value": "09fdb1a6-5c66-4021-9a64-a26424db05c8",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "09fdb1a6-5c66-4021-9a64-a26424db05c8",
+                                            "path_to_object": "result",
+                                            "literal": null,
+                                            "type": "PATH",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6"
+                                        }
+                                    },
+                                    {
+                                        "id": "b3088a07-6b7b-41b9-baa1-37aeb1283a47",
+                                        "expression_id": "08ed445a-a766-43db-9b15-b2199c8e4236",
+                                        "name": "RIGHT",
+                                        "value": "7e0fac28-0c4a-4bfb-96a0-e7bc664454f8",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "7e0fac28-0c4a-4bfb-96a0-e7bc664454f8",
+                                            "path_to_object": null,
+                                            "literal": "0",
+                                            "type": "lITERAL",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "35b12891-7748-495b-8f79-d712bf7f3804",
+                    "type": "FOREACH_STATEMENT",
+                    "sequence": 1,
+                    "block_statement_id": "b15ba93c-a14b-483f-83e3-d52f0f28dcee",
+                    "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+                    "methodStatementDetailList": [
+                        {
+                            "id": "c6fa4166-1265-4dfc-bb67-826c97d782a1",
+                            "method_statement_id": "35b12891-7748-495b-8f79-d712bf7f3804",
+                            "type": "EXPRESSION",
+                            "method_statement_detail_property_name": "ALIAS",
+                            "method_statement_detail_property_value": "9aab4821-b2cc-47b3-bfe8-15383a8ffe7e",
+                            "expressionConfig": {
+                                "id": "9aab4821-b2cc-47b3-bfe8-15383a8ffe7e",
+                                "type": "ALIAS_EXPRESSION",
+                                "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+                                "expressionDetailList": [
+                                    {
+                                        "id": "972f715b-bb52-428b-917f-279c7b7a15e8",
+                                        "expression_id": "9aab4821-b2cc-47b3-bfe8-15383a8ffe7e",
+                                        "name": "OPERAND",
+                                        "value": "0683bb44-2f15-4007-abfb-9d48def64db2",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "0683bb44-2f15-4007-abfb-9d48def64db2",
+                                            "path_to_object": "array",
+                                            "literal": null,
+                                            "type": "PATH",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "f4de176c-c381-4456-9b4d-dfb5da4263d6",
+                            "method_statement_id": "35b12891-7748-495b-8f79-d712bf7f3804",
+                            "type": "STATEMENT",
+                            "method_statement_detail_property_name": "BLOCK",
+                            "method_statement_detail_property_value": "d469f165-f4aa-4807-9cbd-7a6ced682108",
+                            "methodStatement": {
+                                "id": "d469f165-f4aa-4807-9cbd-7a6ced682108",
+                                "type": "BLOCK_STATEMENT",
+                                "sequence": 0,
+                                "block_statement_id": null,
+                                "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+                                "variables": null,
+                                "statements": [
+                                    {
+                                        "id": "2580beb5-3f28-4174-9a18-c827b6bd44c6",
+                                        "type": "EXPRESSION_STATEMENT",
+                                        "sequence": 0,
+                                        "block_statement_id": "d469f165-f4aa-4807-9cbd-7a6ced682108",
+                                        "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+                                        "methodStatementDetailList": [
+                                            {
+                                                "id": "47e27f94-c0fe-4fdf-8f16-09911585b26a",
+                                                "method_statement_id": "2580beb5-3f28-4174-9a18-c827b6bd44c6",
+                                                "type": "EXPRESSION",
+                                                "method_statement_detail_property_name": "EXPRESSION",
+                                                "method_statement_detail_property_value": "1bb60458-cc98-48cf-ba95-1075788cccfa",
+                                                "expressionConfig": {
+                                                    "id": "1bb60458-cc98-48cf-ba95-1075788cccfa",
+                                                    "type": "ASSIGNMENT_EXPRESSION",
+                                                    "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+                                                    "expressionDetailList": [
+                                                        {
+                                                            "id": "b720e579-e9e9-4b89-b2b2-bacbc14227ee",
+                                                            "expression_id": "1bb60458-cc98-48cf-ba95-1075788cccfa",
+                                                            "name": "OPERATOR",
+                                                            "value": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                                            "type": "OPERATOR",
+                                                            "operator": {
+                                                                "id": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                                                "is_archive": false,
+                                                                "name": "ASSIGNMENT",
+                                                                "type": "ASSIGNMENT"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "babb39a6-c60b-4524-9ee4-88a512435e21",
+                                                            "expression_id": "1bb60458-cc98-48cf-ba95-1075788cccfa",
+                                                            "name": "LEFT",
+                                                            "value": "cdf6a9fc-9a9f-47a5-b294-464bbf836423",
+                                                            "type": "OPERAND",
+                                                            "operand": {
+                                                                "id": "cdf6a9fc-9a9f-47a5-b294-464bbf836423",
+                                                                "path_to_object": "result",
+                                                                "literal": null,
+                                                                "type": "PATH",
+                                                                "schema_def_id": null,
+                                                                "property_id": null,
+                                                                "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "a626879e-c33c-40f5-906f-adb558cce45e",
+                                                            "expression_id": "1bb60458-cc98-48cf-ba95-1075788cccfa",
+                                                            "name": "RIGHT",
+                                                            "value": "7bf680df-2a28-455a-b04a-8626da5548d6",
+                                                            "type": "EXPRESSION",
+                                                            "expressionConfig": {
+                                                                "id": "7bf680df-2a28-455a-b04a-8626da5548d6",
+                                                                "type": "BINARY_EXPRESSION",
+                                                                "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+                                                                "expressionDetailList": [
+                                                                    {
+                                                                        "id": "a7eea30d-552c-4d68-80f2-fd74429e14d8",
+                                                                        "expression_id": "7bf680df-2a28-455a-b04a-8626da5548d6",
+                                                                        "name": "OPERATOR",
+                                                                        "value": "6d218cfa-3b0d-4997-bcb1-bbebf4b7c4ec",
+                                                                        "type": "OPERATOR",
+                                                                        "operator": {
+                                                                            "id": "6d218cfa-3b0d-4997-bcb1-bbebf4b7c4ec",
+                                                                            "is_archive": false,
+                                                                            "name": "ADDITION",
+                                                                            "type": "ARITHMETIC"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "id": "d264631b-63ba-4172-882a-89a1e1589476",
+                                                                        "expression_id": "7bf680df-2a28-455a-b04a-8626da5548d6",
+                                                                        "name": "LEFT",
+                                                                        "value": "d17e4e67-63a2-4ac9-9b94-234178c5bf6f",
+                                                                        "type": "OPERAND",
+                                                                        "operand": {
+                                                                            "id": "d17e4e67-63a2-4ac9-9b94-234178c5bf6f",
+                                                                            "path_to_object": "result",
+                                                                            "literal": null,
+                                                                            "type": "PATH",
+                                                                            "schema_def_id": null,
+                                                                            "property_id": null,
+                                                                            "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "id": "f776ff30-7832-45ce-be69-cad3bf64349d",
+                                                                        "expression_id": "7bf680df-2a28-455a-b04a-8626da5548d6",
+                                                                        "name": "RIGHT",
+                                                                        "value": "f6364fb2-8dce-484c-bfdc-09f42e364ccb",
+                                                                        "type": "OPERAND",
+                                                                        "operand": {
+                                                                            "id": "f6364fb2-8dce-484c-bfdc-09f42e364ccb",
+                                                                            "path_to_object": "number",
+                                                                            "literal": null,
+                                                                            "type": "PATH",
+                                                                            "schema_def_id": null,
+                                                                            "property_id": null,
+                                                                            "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "variables": [
+                        {
+                            "id": "2ea27db0-e556-4723-9a2e-c57f39a4bc6c",
+                            "variable_name": "number",
+                            "type": "VARIABLE",
+                            "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                            "method_or_statement_id": "35b12891-7748-495b-8f79-d712bf7f3804"
+                        }
+                    ]
+                },
+                {
+                    "id": "5fcec7f1-db11-4e46-bb8a-9f030dc4997a",
+                    "type": "RETURN_STATEMENT",
+                    "sequence": 2,
+                    "block_statement_id": "b15ba93c-a14b-483f-83e3-d52f0f28dcee",
+                    "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+                    "methodStatementDetailList": [
+                        {
+                            "id": "721bc383-dc0d-4c85-a63e-bf3cb7dc5c79",
+                            "method_statement_id": "5fcec7f1-db11-4e46-bb8a-9f030dc4997a",
+                            "type": "EXPRESSION",
+                            "method_statement_detail_property_name": "ARGUMENT",
+                            "method_statement_detail_property_value": "f869cf4f-3d01-4d2b-b8aa-7a19d1c2d9d1",
+                            "expressionConfig": {
+                                "id": "f869cf4f-3d01-4d2b-b8aa-7a19d1c2d9d1",
+                                "type": "OPERAND_EXPRESSION",
+                                "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6",
+                                "expressionDetailList": [
+                                    {
+                                        "id": "40ba2b7a-a6aa-4bf0-9829-7080fe6417a1",
+                                        "expression_id": "f869cf4f-3d01-4d2b-b8aa-7a19d1c2d9d1",
+                                        "name": "ARGUMENT",
+                                        "value": "bb4ad5e2-a583-4fee-96ec-1ef4a5838395",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "bb4ad5e2-a583-4fee-96ec-1ef4a5838395",
+                                            "path_to_object": "result",
+                                            "literal": null,
+                                            "type": "PATH",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "38e7caab-fe7f-4fe0-8360-f97af9197eb6"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "0291b26b-718b-4056-a146-f467acbe3198",
+        "name": "length",
+        "is_archive": false,
+        "return_type_schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.length",
+        "parameters": [
+            {
+                "id": "9f8c539d-796a-47cb-8b03-e3274dedaf86",
+                "variable_name": "string",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "0291b26b-718b-4056-a146-f467acbe3198"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "fdc3af33-7644-4c23-91c6-e360efc47574",
+        "name": "getListOfAllValuesOfObject",
+        "is_archive": false,
+        "return_type_schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+        "package_name": "system.util",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.util.getListOfAllValuesOfObject",
+        "parameters": [
+            {
+                "id": "e69d8f4c-833e-42f4-8790-a61c035af1c1",
+                "variable_name": "dataMap",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "fdc3af33-7644-4c23-91c6-e360efc47574"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "9cd96708-ae86-49fb-a6ca-4ffcb731f293",
+        "name": "sendErrorMessage",
+        "is_archive": false,
+        "return_type_schema_def_id": null,
+        "package_name": "system.exception",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.exception.sendErrorMessage",
+        "parameters": [
+            {
+                "id": "754d2947-95d2-46f5-a24f-f797ceeb4cdf",
+                "variable_name": "message",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "9cd96708-ae86-49fb-a6ca-4ffcb731f293"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "2693460d-535a-4d43-b2b3-e2182164a178",
+        "name": "executeSaveAndUpdateSqlQueryConfig",
+        "is_archive": false,
+        "return_type_schema_def_id": null,
+        "package_name": "system.qb.runtime",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": "To execute save and update query.",
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.qb.runtime.executeSaveAndUpdateSqlQueryConfig",
+        "parameters": [
+            {
+                "id": "ee6acd28-aa1d-4b88-b8be-05cb81f80c55",
+                "variable_name": "sqlQueryConfigId",
+                "type": "PARAM",
+                "schema_def_id": "139f4e23-e329-4669-a976-31590fbdaeb4",
+                "method_or_statement_id": "2693460d-535a-4d43-b2b3-e2182164a178"
+            },
+            {
+                "id": "83a5b21c-a0e2-4179-8426-c455194d5b64",
+                "variable_name": "parameters",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "2693460d-535a-4d43-b2b3-e2182164a178"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "93ab1c57-02d1-40c2-8b7a-b0217aee6178",
+        "name": "addOrUpdateSchema",
+        "is_archive": false,
+        "return_type_schema_def_id": "d4d54b7d-dda2-457c-901d-5531c37d5986",
+        "package_name": "system.oas",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": null,
+        "fullyQualifiedName": "system.oas.addOrUpdateSchema",
+        "parameters": [
+            {
+                "id": "16adb44f-80dd-4f40-9520-e3a73df26f30",
+                "variable_name": "schema",
+                "type": "PARAM",
+                "schema_def_id": "d4d54b7d-dda2-457c-901d-5531c37d5986",
+                "method_or_statement_id": "93ab1c57-02d1-40c2-8b7a-b0217aee6178"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "987279ef-9d7e-49e5-849f-c346f6e32ecd",
+        "name": "removeElementInArray",
+        "is_archive": false,
+        "return_type_schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+        "package_name": "system.array",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.array.removeElementInArray",
+        "parameters": [
+            {
+                "id": "29fef59e-5a63-4912-8067-3146a9a1bc06",
+                "variable_name": "element",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "987279ef-9d7e-49e5-849f-c346f6e32ecd"
+            },
+            {
+                "id": "93b21ff4-0cc6-42bb-8d4c-cfbefa486e79",
+                "variable_name": "array",
+                "type": "PARAM",
+                "schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+                "method_or_statement_id": "987279ef-9d7e-49e5-849f-c346f6e32ecd"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "09c8ac83-2f06-4921-8840-349ea1706bce",
+        "name": "retrieveByFullyQualifiedName",
+        "is_archive": false,
+        "return_type_schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+        "package_name": "system.cache",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.cache.retrieveByFullyQualifiedName",
+        "parameters": [
+            {
+                "id": "b97fb8be-41e0-40e5-bcfb-9583e2db680f",
+                "variable_name": "schemaId",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "09c8ac83-2f06-4921-8840-349ea1706bce"
+            },
+            {
+                "id": "c467ac6f-4185-4bb3-a2e4-8c1101975499",
+                "variable_name": "fullyQualifiedName",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "09c8ac83-2f06-4921-8840-349ea1706bce"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "d2ad3d98-85ed-4d30-92fc-03815feac15b",
+        "name": "concat",
+        "is_archive": false,
+        "return_type_schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.concat",
+        "parameters": [
+            {
+                "id": "53e3bf82-9d56-43be-a573-d3e1565d848b",
+                "variable_name": "string1",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "d2ad3d98-85ed-4d30-92fc-03815feac15b"
+            },
+            {
+                "id": "5b34ddf7-4411-4da7-bc99-153fbe6966b5",
+                "variable_name": "string2",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "d2ad3d98-85ed-4d30-92fc-03815feac15b"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "919dba14-6249-43cd-ad4e-da9bf2aedd9b",
+        "name": "getObjectForPath",
+        "is_archive": false,
+        "return_type_schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+        "package_name": "system.util",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.util.getObjectForPath",
+        "parameters": [
+            {
+                "id": "214c3741-b8f7-44f7-9db6-14bc2a685191",
+                "variable_name": "path",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "919dba14-6249-43cd-ad4e-da9bf2aedd9b"
+            },
+            {
+                "id": "15aeeab0-ca23-4955-b784-89b14e310162",
+                "variable_name": "object",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "919dba14-6249-43cd-ad4e-da9bf2aedd9b"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "03c24a62-760a-4230-8fec-d8fed5d1e027",
+        "name": "split",
+        "is_archive": false,
+        "return_type_schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.split",
+        "parameters": [
+            {
+                "id": "e5a6c681-78c0-4b37-b9d9-ab5dcb7c1638",
+                "variable_name": "regex",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "03c24a62-760a-4230-8fec-d8fed5d1e027"
+            },
+            {
+                "id": "d80a25a7-5259-40f9-bb59-c19fc954e86c",
+                "variable_name": "string",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "03c24a62-760a-4230-8fec-d8fed5d1e027"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "1d1f5fc9-f523-46b9-b3df-b8d4a3cf20be",
+        "name": "getLength",
+        "is_archive": false,
+        "return_type_schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+        "package_name": "system.array",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.array.getLength",
+        "parameters": [
+            {
+                "id": "86395757-7f3a-4931-b5d8-ba43836ccc7a",
+                "variable_name": "array",
+                "type": "PARAM",
+                "schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+                "method_or_statement_id": "1d1f5fc9-f523-46b9-b3df-b8d4a3cf20be"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "7cf19ea7-ae82-4df0-a9c9-3504e4925946",
+        "name": "containsElementInArray",
+        "is_archive": false,
+        "return_type_schema_def_id": "8c758d7f-20a7-48db-b4ad-3450e11c5d8b",
+        "package_name": "system.array",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.array.containsElementInArray",
+        "parameters": [
+            {
+                "id": "e146fbba-e660-4bdc-a383-68dc7af6a423",
+                "variable_name": "array",
+                "type": "PARAM",
+                "schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+                "method_or_statement_id": "7cf19ea7-ae82-4df0-a9c9-3504e4925946"
+            },
+            {
+                "id": "c8e49d2c-e3dd-4a25-b2a4-3e31c0202c4e",
+                "variable_name": "element",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "7cf19ea7-ae82-4df0-a9c9-3504e4925946"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "58be0c9c-5a00-4042-8bdc-53dbb04bdbd7",
+        "name": "contains",
+        "is_archive": false,
+        "return_type_schema_def_id": "8c758d7f-20a7-48db-b4ad-3450e11c5d8b",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.contains",
+        "parameters": [
+            {
+                "id": "3d5887d8-5843-4876-a1fe-56736ae2c1e8",
+                "variable_name": "string",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "58be0c9c-5a00-4042-8bdc-53dbb04bdbd7"
+            },
+            {
+                "id": "6d480ad0-253b-4c90-ba4a-d39138434e3b",
+                "variable_name": "subString",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "58be0c9c-5a00-4042-8bdc-53dbb04bdbd7"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "72b4e8b2-1784-4fab-8cb9-4263ef6691a3",
+        "name": "addElementInArray",
+        "is_archive": false,
+        "return_type_schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+        "package_name": "system.array",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.array.addElementInArray",
+        "parameters": [
+            {
+                "id": "9851212e-851d-4af2-814b-cafb3dedc273",
+                "variable_name": "array",
+                "type": "PARAM",
+                "schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+                "method_or_statement_id": "72b4e8b2-1784-4fab-8cb9-4263ef6691a3"
+            },
+            {
+                "id": "ff028a4a-c464-45c5-b152-e75bacf59375",
+                "variable_name": "element",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "72b4e8b2-1784-4fab-8cb9-4263ef6691a3"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "46a05aa7-81a5-4a07-a89e-8a7d5bb2a68d",
+        "name": "setPropertyAt",
+        "is_archive": false,
+        "return_type_schema_def_id": null,
+        "package_name": "system.util",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.util.setPropertyAt",
+        "parameters": [
+            {
+                "id": "1644f142-ecab-49f7-b73c-9bc3f4e9a041",
+                "variable_name": "path",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "46a05aa7-81a5-4a07-a89e-8a7d5bb2a68d"
+            },
+            {
+                "id": "c89405e6-a541-4af5-b404-35e3468a126f",
+                "variable_name": "targetValue",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "46a05aa7-81a5-4a07-a89e-8a7d5bb2a68d"
+            },
+            {
+                "id": "e32d8e40-f8c9-476b-b866-fc0c3bc71dae",
+                "variable_name": "source",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "46a05aa7-81a5-4a07-a89e-8a7d5bb2a68d"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "af0432da-7008-4886-b093-b87988e01d12",
+        "name": "retrieveById",
+        "is_archive": false,
+        "return_type_schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+        "package_name": "system.cache",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.cache.retrieveById",
+        "parameters": [
+            {
+                "id": "b594b4cf-5cc0-48e2-99f7-2ae8e3286f19",
+                "variable_name": "instanceId",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "af0432da-7008-4886-b093-b87988e01d12"
+            },
+            {
+                "id": "5e762cb9-d46d-43b9-9bb3-521536b06172",
+                "variable_name": "schemaId",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "af0432da-7008-4886-b093-b87988e01d12"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "58dd587b-c600-4c56-ac68-84d0d59c7b61",
+        "name": "isEmpty",
+        "is_archive": false,
+        "return_type_schema_def_id": "8c758d7f-20a7-48db-b4ad-3450e11c5d8b",
+        "package_name": "system.array",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.array.isEmpty",
+        "parameters": [
+            {
+                "id": "9e663f22-609a-4f87-8d16-75d88d8c872e",
+                "variable_name": "array",
+                "type": "PARAM",
+                "schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+                "method_or_statement_id": "58dd587b-c600-4c56-ac68-84d0d59c7b61"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "6731608b-a0b4-481c-8535-b65795afe0d5",
+        "name": "toLowerCase",
+        "is_archive": false,
+        "return_type_schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.toLowerCase",
+        "parameters": [
+            {
+                "id": "d28496c9-61dd-4826-a7e6-3dffd5f329f8",
+                "variable_name": "string",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "6731608b-a0b4-481c-8535-b65795afe0d5"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "06740400-93a6-4968-bfa1-a4e3fc4ce6f8",
+        "name": "getListOfAllKeysOfObject",
+        "is_archive": false,
+        "return_type_schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+        "package_name": "system.util",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.util.getListOfAllKeysOfObject",
+        "parameters": [
+            {
+                "id": "ff9ac0d4-e490-4864-bf7b-29821e1a76b1",
+                "variable_name": "dataMap",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "06740400-93a6-4968-bfa1-a4e3fc4ce6f8"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "3b0c6b8d-788a-4a59-85ef-318f351ff4e3",
+        "name": "retrieveAll",
+        "is_archive": false,
+        "return_type_schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+        "package_name": "system.cache",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.cache.retrieveAll",
+        "parameters": [
+            {
+                "id": "dcb16949-4820-49e3-a6b5-9de870e9e214",
+                "variable_name": "schemaId",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "3b0c6b8d-788a-4a59-85ef-318f351ff4e3"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "d74ebdec-37aa-4daa-bf17-3be1cdb58b52",
+        "name": "toUpperCase",
+        "is_archive": false,
+        "return_type_schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.toUpperCase",
+        "parameters": [
+            {
+                "id": "8799c0d6-38f1-4aab-a7b3-b73586caada9",
+                "variable_name": "string",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "d74ebdec-37aa-4daa-bf17-3be1cdb58b52"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "eeef4b43-840a-4d58-b63a-7715a6a3342e",
+        "name": "generateQueryForLoadSqlQueryConfig",
+        "is_archive": false,
+        "return_type_schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+        "package_name": "system.qb.runtime",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": "To generate Query from SqlQueryConfig of LOAD type.",
+        "is_using_current_db": false,
+        "database_name": "bm_config",
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.qb.runtime.generateQueryForLoadSqlQueryConfig",
+        "parameters": [
+            {
+                "id": "1fa8e3f7-b625-4320-8731-c402d0c52f1d",
+                "variable_name": "sqlQueryConfigId",
+                "type": "PARAM",
+                "schema_def_id": "139f4e23-e329-4669-a976-31590fbdaeb4",
+                "method_or_statement_id": "eeef4b43-840a-4d58-b63a-7715a6a3342e"
+            },
+            {
+                "id": "39df3853-0780-4241-8c3b-7a5d6c7a84da",
+                "variable_name": "parameters",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "eeef4b43-840a-4d58-b63a-7715a6a3342e"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "71096e84-9452-4928-86a7-25003ebc8f5f",
+        "name": "charAt",
+        "is_archive": false,
+        "return_type_schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.charAt",
+        "parameters": [
+            {
+                "id": "ee74b4ff-14cc-46dc-984c-609d163cc866",
+                "variable_name": "string",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "71096e84-9452-4928-86a7-25003ebc8f5f"
+            },
+            {
+                "id": "10b1c81c-5b1f-4d27-a167-5436e695b55c",
+                "variable_name": "index",
+                "type": "PARAM",
+                "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                "method_or_statement_id": "71096e84-9452-4928-86a7-25003ebc8f5f"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+        "name": "sumOfArrayElementsVersion30",
+        "is_archive": false,
+        "return_type_schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+        "package_name": "bm",
+        "type": "CONFIGURED_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": "5da2747e-8be3-44a8-8730-8cbbec835b45",
+        "description": "sum of arrays",
+        "is_using_current_db": null,
+        "database_name": null,
+        "category": null,
+        "fullyQualifiedName": "bm.sumOfArrayElementsVersion30",
+        "parameters": [
+            {
+                "id": "ccc1f061-7056-441d-98b5-1c6b7d676e1d",
+                "variable_name": "array",
+                "type": "PARAM",
+                "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                "method_or_statement_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c"
+            }
+        ],
+        "blockStatementConfig": {
+            "id": "5da2747e-8be3-44a8-8730-8cbbec835b45",
+            "type": "BLOCK_STATEMENT",
+            "sequence": 0,
+            "block_statement_id": null,
+            "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+            "variables": [
+                {
+                    "id": "3af1ef15-e54a-4529-bee2-b958bcc138bb",
+                    "variable_name": "result",
+                    "type": "VARIABLE",
+                    "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                    "method_or_statement_id": "5da2747e-8be3-44a8-8730-8cbbec835b45"
+                }
+            ],
+            "statements": [
+                {
+                    "id": "2b38a0a8-7fb5-4cc9-af00-9194ccc6cda6",
+                    "type": "EXPRESSION_STATEMENT",
+                    "sequence": 0,
+                    "block_statement_id": "5da2747e-8be3-44a8-8730-8cbbec835b45",
+                    "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+                    "methodStatementDetailList": [
+                        {
+                            "id": "f78f9425-8342-40de-9f9a-d290330be0c0",
+                            "method_statement_id": "2b38a0a8-7fb5-4cc9-af00-9194ccc6cda6",
+                            "type": "EXPRESSION",
+                            "method_statement_detail_property_name": "EXPRESSION",
+                            "method_statement_detail_property_value": "85bdf64f-601b-432c-9663-73a19b6cfb9d",
+                            "expressionConfig": {
+                                "id": "85bdf64f-601b-432c-9663-73a19b6cfb9d",
+                                "type": "ASSIGNMENT_EXPRESSION",
+                                "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+                                "expressionDetailList": [
+                                    {
+                                        "id": "61924128-49f7-4595-b569-52b2fa9e91d8",
+                                        "expression_id": "85bdf64f-601b-432c-9663-73a19b6cfb9d",
+                                        "name": "OPERATOR",
+                                        "value": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                        "type": "OPERATOR",
+                                        "operator": {
+                                            "id": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                            "is_archive": false,
+                                            "name": "ASSIGNMENT",
+                                            "type": "ASSIGNMENT"
+                                        }
+                                    },
+                                    {
+                                        "id": "8d908a3d-6516-427c-b786-166ebbdcfbbf",
+                                        "expression_id": "85bdf64f-601b-432c-9663-73a19b6cfb9d",
+                                        "name": "LEFT",
+                                        "value": "e63ebb4d-78c7-4ea4-9526-046f108d55a7",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "e63ebb4d-78c7-4ea4-9526-046f108d55a7",
+                                            "path_to_object": "result",
+                                            "literal": null,
+                                            "type": "PATH",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c"
+                                        }
+                                    },
+                                    {
+                                        "id": "fe016ba2-b907-40ca-a033-76f43005e638",
+                                        "expression_id": "85bdf64f-601b-432c-9663-73a19b6cfb9d",
+                                        "name": "RIGHT",
+                                        "value": "39a28c38-9c59-4e18-9762-6250f89d652a",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "39a28c38-9c59-4e18-9762-6250f89d652a",
+                                            "path_to_object": null,
+                                            "literal": "0",
+                                            "type": "lITERAL",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "7ae53709-6115-4398-9a64-9d36f64a5608",
+                    "type": "FOREACH_STATEMENT",
+                    "sequence": 1,
+                    "block_statement_id": "5da2747e-8be3-44a8-8730-8cbbec835b45",
+                    "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+                    "methodStatementDetailList": [
+                        {
+                            "id": "97f393b4-5f93-4788-b880-aa29600f0740",
+                            "method_statement_id": "7ae53709-6115-4398-9a64-9d36f64a5608",
+                            "type": "EXPRESSION",
+                            "method_statement_detail_property_name": "ALIAS",
+                            "method_statement_detail_property_value": "e6fcf145-eaab-4197-9b48-1f498dbab387",
+                            "expressionConfig": {
+                                "id": "e6fcf145-eaab-4197-9b48-1f498dbab387",
+                                "type": "ALIAS_EXPRESSION",
+                                "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+                                "expressionDetailList": [
+                                    {
+                                        "id": "4c5ce59c-091c-4075-8040-c2bcb5a6e3df",
+                                        "expression_id": "e6fcf145-eaab-4197-9b48-1f498dbab387",
+                                        "name": "OPERAND",
+                                        "value": "8e50bc6b-69b7-4575-a234-4c3f6867f77d",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "8e50bc6b-69b7-4575-a234-4c3f6867f77d",
+                                            "path_to_object": "array",
+                                            "literal": null,
+                                            "type": "PATH",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "4c548cab-92ef-4915-8cbe-086b77b2ef39",
+                            "method_statement_id": "7ae53709-6115-4398-9a64-9d36f64a5608",
+                            "type": "STATEMENT",
+                            "method_statement_detail_property_name": "BLOCK",
+                            "method_statement_detail_property_value": "ee6607c9-a244-41a0-8e8f-0c2d280309b7",
+                            "methodStatement": {
+                                "id": "ee6607c9-a244-41a0-8e8f-0c2d280309b7",
+                                "type": "BLOCK_STATEMENT",
+                                "sequence": 0,
+                                "block_statement_id": null,
+                                "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+                                "variables": null,
+                                "statements": [
+                                    {
+                                        "id": "cd8dd222-2aec-449f-b569-803e77dd4242",
+                                        "type": "EXPRESSION_STATEMENT",
+                                        "sequence": 0,
+                                        "block_statement_id": "ee6607c9-a244-41a0-8e8f-0c2d280309b7",
+                                        "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+                                        "methodStatementDetailList": [
+                                            {
+                                                "id": "cb9f47e8-c4bd-4682-91a1-6b828d5a1d66",
+                                                "method_statement_id": "cd8dd222-2aec-449f-b569-803e77dd4242",
+                                                "type": "EXPRESSION",
+                                                "method_statement_detail_property_name": "EXPRESSION",
+                                                "method_statement_detail_property_value": "9da7475a-b418-42b1-92aa-31b4f98d71f0",
+                                                "expressionConfig": {
+                                                    "id": "9da7475a-b418-42b1-92aa-31b4f98d71f0",
+                                                    "type": "ASSIGNMENT_EXPRESSION",
+                                                    "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+                                                    "expressionDetailList": [
+                                                        {
+                                                            "id": "39091b3e-15b7-488c-8c9d-d17a53237182",
+                                                            "expression_id": "9da7475a-b418-42b1-92aa-31b4f98d71f0",
+                                                            "name": "OPERATOR",
+                                                            "value": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                                            "type": "OPERATOR",
+                                                            "operator": {
+                                                                "id": "06ae8416-491b-4f02-8bb4-ede82b1f2e94",
+                                                                "is_archive": false,
+                                                                "name": "ASSIGNMENT",
+                                                                "type": "ASSIGNMENT"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "dc9bff5d-8251-4ab0-95ea-d539d5162891",
+                                                            "expression_id": "9da7475a-b418-42b1-92aa-31b4f98d71f0",
+                                                            "name": "LEFT",
+                                                            "value": "de5327d2-9a29-4114-8d2f-f07acf71ee21",
+                                                            "type": "OPERAND",
+                                                            "operand": {
+                                                                "id": "de5327d2-9a29-4114-8d2f-f07acf71ee21",
+                                                                "path_to_object": "result",
+                                                                "literal": null,
+                                                                "type": "PATH",
+                                                                "schema_def_id": null,
+                                                                "property_id": null,
+                                                                "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "f7be2277-4865-4105-885e-5401781b7371",
+                                                            "expression_id": "9da7475a-b418-42b1-92aa-31b4f98d71f0",
+                                                            "name": "RIGHT",
+                                                            "value": "a3065bca-8447-4440-9bf3-a223744068da",
+                                                            "type": "EXPRESSION",
+                                                            "expressionConfig": {
+                                                                "id": "a3065bca-8447-4440-9bf3-a223744068da",
+                                                                "type": "BINARY_EXPRESSION",
+                                                                "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+                                                                "expressionDetailList": [
+                                                                    {
+                                                                        "id": "a6c66781-34b3-4ff5-a87a-6d4785fa656e",
+                                                                        "expression_id": "a3065bca-8447-4440-9bf3-a223744068da",
+                                                                        "name": "OPERATOR",
+                                                                        "value": "6d218cfa-3b0d-4997-bcb1-bbebf4b7c4ec",
+                                                                        "type": "OPERATOR",
+                                                                        "operator": {
+                                                                            "id": "6d218cfa-3b0d-4997-bcb1-bbebf4b7c4ec",
+                                                                            "is_archive": false,
+                                                                            "name": "ADDITION",
+                                                                            "type": "ARITHMETIC"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "id": "a076601e-b3d9-4739-96c5-8d0c03b7eef2",
+                                                                        "expression_id": "a3065bca-8447-4440-9bf3-a223744068da",
+                                                                        "name": "LEFT",
+                                                                        "value": "bcaa60a3-37b1-4836-9ffc-53320f2af88d",
+                                                                        "type": "OPERAND",
+                                                                        "operand": {
+                                                                            "id": "bcaa60a3-37b1-4836-9ffc-53320f2af88d",
+                                                                            "path_to_object": "result",
+                                                                            "literal": null,
+                                                                            "type": "PATH",
+                                                                            "schema_def_id": null,
+                                                                            "property_id": null,
+                                                                            "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "id": "07dae866-01dc-468f-9cfb-e8ec255087a5",
+                                                                        "expression_id": "a3065bca-8447-4440-9bf3-a223744068da",
+                                                                        "name": "RIGHT",
+                                                                        "value": "ede2c3a1-6506-4db5-a3ba-4912dfc7eb02",
+                                                                        "type": "OPERAND",
+                                                                        "operand": {
+                                                                            "id": "ede2c3a1-6506-4db5-a3ba-4912dfc7eb02",
+                                                                            "path_to_object": "number",
+                                                                            "literal": null,
+                                                                            "type": "PATH",
+                                                                            "schema_def_id": null,
+                                                                            "property_id": null,
+                                                                            "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "variables": [
+                        {
+                            "id": "23b36c87-3a3e-4d20-a155-986cec6d0487",
+                            "variable_name": "number",
+                            "type": "VARIABLE",
+                            "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                            "method_or_statement_id": "7ae53709-6115-4398-9a64-9d36f64a5608"
+                        }
+                    ]
+                },
+                {
+                    "id": "62a40476-4524-4960-94a9-ac997a2cd144",
+                    "type": "RETURN_STATEMENT",
+                    "sequence": 2,
+                    "block_statement_id": "5da2747e-8be3-44a8-8730-8cbbec835b45",
+                    "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+                    "methodStatementDetailList": [
+                        {
+                            "id": "f8facd6e-8561-466b-9d43-ef7404f4ab57",
+                            "method_statement_id": "62a40476-4524-4960-94a9-ac997a2cd144",
+                            "type": "EXPRESSION",
+                            "method_statement_detail_property_name": "ARGUMENT",
+                            "method_statement_detail_property_value": "d29d9440-2616-47fa-b60e-465478d5d75d",
+                            "expressionConfig": {
+                                "id": "d29d9440-2616-47fa-b60e-465478d5d75d",
+                                "type": "OPERAND_EXPRESSION",
+                                "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c",
+                                "expressionDetailList": [
+                                    {
+                                        "id": "04f029ee-fe5c-47b7-b121-e37b21a0e5e8",
+                                        "expression_id": "d29d9440-2616-47fa-b60e-465478d5d75d",
+                                        "name": "ARGUMENT",
+                                        "value": "65069ccb-e690-46ea-83d1-2ebb56790947",
+                                        "type": "OPERAND",
+                                        "operand": {
+                                            "id": "65069ccb-e690-46ea-83d1-2ebb56790947",
+                                            "path_to_object": "result",
+                                            "literal": null,
+                                            "type": "PATH",
+                                            "schema_def_id": null,
+                                            "property_id": null,
+                                            "method_id": "410c9849-1f94-40cd-9d2a-6c1c034c0c3c"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "4fdd4b18-6b34-45c1-891a-f3d62f390b15",
+        "name": "trim",
+        "is_archive": false,
+        "return_type_schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.trim",
+        "parameters": [
+            {
+                "id": "a6a65a12-a4ad-40f9-b18d-070ace72792d",
+                "variable_name": "string",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "4fdd4b18-6b34-45c1-891a-f3d62f390b15"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "3837be6b-0a43-412d-b6ca-dc2f9a2590b8",
+        "name": "addAllElementsInArray",
+        "is_archive": false,
+        "return_type_schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+        "package_name": "system.array",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.array.addAllElementsInArray",
+        "parameters": [
+            {
+                "id": "9358ba4a-fc9f-46fb-a3bd-0d67ca67b3f7",
+                "variable_name": "secondaryArray",
+                "type": "PARAM",
+                "schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+                "method_or_statement_id": "3837be6b-0a43-412d-b6ca-dc2f9a2590b8"
+            },
+            {
+                "id": "4ed85001-bc19-4429-b001-40e4f3b2f4f6",
+                "variable_name": "primaryArray",
+                "type": "PARAM",
+                "schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+                "method_or_statement_id": "3837be6b-0a43-412d-b6ca-dc2f9a2590b8"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "c4d5c82b-2d84-4d27-9b7b-189013e2f775",
+        "name": "save",
+        "is_archive": false,
+        "return_type_schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+        "package_name": "system.cache",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.cache.save",
+        "parameters": [
+            {
+                "id": "b7566485-c8c6-4ec2-99cb-4a53c8dcbf06",
+                "variable_name": "schemaInstance",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "c4d5c82b-2d84-4d27-9b7b-189013e2f775"
+            },
+            {
+                "id": "16934f18-7284-4ca7-864c-9b9b7ecf2173",
+                "variable_name": "schemaId",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "c4d5c82b-2d84-4d27-9b7b-189013e2f775"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "5b94aa68-ed84-4248-be1d-0f8672d4f9a5",
+        "name": "matches",
+        "is_archive": false,
+        "return_type_schema_def_id": "8c758d7f-20a7-48db-b4ad-3450e11c5d8b",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.matches",
+        "parameters": [
+            {
+                "id": "a61b7ba6-7ac0-44ea-885a-b552d333be4f",
+                "variable_name": "regex",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "5b94aa68-ed84-4248-be1d-0f8672d4f9a5"
+            },
+            {
+                "id": "ff1d83d0-0053-41a8-a605-a972c8622b9b",
+                "variable_name": "string",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "5b94aa68-ed84-4248-be1d-0f8672d4f9a5"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "e23fc3ce-112a-47b5-b596-620f24a92224",
+        "name": "getValueAtIndex",
+        "is_archive": false,
+        "return_type_schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+        "package_name": "system.array",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.array.getValueAtIndex",
+        "parameters": [
+            {
+                "id": "7c1ef395-d954-4ef9-be51-f45ddc4d3c9c",
+                "variable_name": "array",
+                "type": "PARAM",
+                "schema_def_id": "b94c60c8-6139-42ef-9c7f-ab0e4ecead9d",
+                "method_or_statement_id": "e23fc3ce-112a-47b5-b596-620f24a92224"
+            },
+            {
+                "id": "a3fa9cf8-392a-4eb1-b4e3-bd49ac023d4a",
+                "variable_name": "index",
+                "type": "PARAM",
+                "schema_def_id": "57267717-accd-4a60-bbea-529006c89a0a",
+                "method_or_statement_id": "e23fc3ce-112a-47b5-b596-620f24a92224"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "fabb34a1-fa06-4f40-8a70-5e29c9b3ae55",
+        "name": "executeQueryForLoadSqlQueryConfig",
+        "is_archive": false,
+        "return_type_schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+        "package_name": "system.qb.runtime",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": "To execute generated Query from SqlQueryConfig .",
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.qb.runtime.executeQueryForLoadSqlQueryConfig",
+        "parameters": [
+            {
+                "id": "da775f17-058d-4c1d-8901-f278c2fb302c",
+                "variable_name": "sqlQueryConfigId",
+                "type": "PARAM",
+                "schema_def_id": "139f4e23-e329-4669-a976-31590fbdaeb4",
+                "method_or_statement_id": "fabb34a1-fa06-4f40-8a70-5e29c9b3ae55"
+            },
+            {
+                "id": "63aba357-15ab-467d-af87-3346fd1dd397",
+                "variable_name": "parameters",
+                "type": "PARAM",
+                "schema_def_id": "b5573734-5500-4480-a8e2-e70a427fedc3",
+                "method_or_statement_id": "fabb34a1-fa06-4f40-8a70-5e29c9b3ae55"
+            }
+        ],
+        "blockStatementConfig": null
+    },
+    {
+        "id": "82c98947-d02f-47bd-ad73-65ce06503b0e",
+        "name": "isStringEmpty",
+        "is_archive": false,
+        "return_type_schema_def_id": "8c758d7f-20a7-48db-b4ad-3450e11c5d8b",
+        "package_name": "system.string",
+        "type": "STATIC_METHOD",
+        "is_using_multiple_db": false,
+        "block_statement_id": null,
+        "description": null,
+        "is_using_current_db": true,
+        "database_name": null,
+        "category": "SYSTEM",
+        "fullyQualifiedName": "system.string.isStringEmpty",
+        "parameters": [
+            {
+                "id": "ee94396b-13cb-4f04-9d91-2a7f186c2465",
+                "variable_name": "string",
+                "type": "PARAM",
+                "schema_def_id": "884675cf-4258-4397-b5a2-15f02f498e86",
+                "method_or_statement_id": "82c98947-d02f-47bd-ad73-65ce06503b0e"
+            }
+        ],
+        "blockStatementConfig": null
+    }
+]
