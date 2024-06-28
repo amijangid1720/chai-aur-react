@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-function Card({username , btnText="VisitProfile"}) {
+function Card({username , btnText="VisitProfile"}) { 
     // console.log("props --->",props)
   return (
     <>
